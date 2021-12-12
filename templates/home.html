@@ -1,0 +1,23 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<div class="d-flex justify-content-center">
+<form action="#" method="POST">
+    <p>Name:</p>
+    <p><input type="text" name="name"/></p>
+    <p>age:</p>
+    <p><input type="text" name="age"/></p>
+    <p>Country:</p>
+    <p><input type="text" name="country"/></p>
+    <div class="d-flex justify-content-center">
+    <p><input type="submit" value="sumit"/></p>
+    </div>
+</form>
+</div>
+
+<div class="d-flex justify-content-center">
+<a class="btn btn-primary" href="/multi" role="button">두자리수 곱셈</a>
+</div>
+
+{% endblock %}
